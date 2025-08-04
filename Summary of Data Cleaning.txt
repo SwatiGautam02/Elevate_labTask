@@ -1,0 +1,11 @@
+Summary of Data Cleaning (Mall Customer Segmentation Dataset)
+* Removed duplicate rows using drop_duplicates()
+* Handled missing values in 'Age', 'Annual Income', and 'Spending Score' using median
+* Renamed columns to lowercase with underscores
+* Standardized 'Gender' values to consistent format (Male/Female)
+* Converted data types:
+o Age ? int
+o Annual Income (k$) ? float
+o Spending Score (1-100) ? int
+* Exported the cleaned dataset to cleaned_mall_customer_data.csv
+
